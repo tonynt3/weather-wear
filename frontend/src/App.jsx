@@ -10,7 +10,7 @@ const initialPreferences = {
 };
 
 function App() {
-  const [query, setQuery] = useState("San Francisco");
+  const [query, setQuery] = useState("Atlanta");
   const [weather, setWeather] = useState(null);
   const [recommendation, setRecommendation] = useState(null);
   const [preferences, setPreferences] = useState(initialPreferences);
